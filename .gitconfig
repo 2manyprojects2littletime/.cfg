@@ -1,0 +1,11 @@
+[core]
+	excludesfile = /Users/med/.gitignore_global
+[user]
+	email = matt@forestry.io
+	name = Matt Duffy
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
