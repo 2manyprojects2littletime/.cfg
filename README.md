@@ -1,0 +1,1 @@
+this is a bare git repo to hold my machine-independent environment configuration.  Read more about the idea and implementation here: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
