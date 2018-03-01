@@ -1,6 +1,7 @@
 (source gnu)
 (source melpa)
 
+; "Recommended" by cask init?
 (depends-on "bind-key")
 (depends-on "cask")
 (depends-on "dash")
@@ -25,3 +26,9 @@
 (depends-on "use-package")
 (depends-on "web-mode")
 (depends-on "yasnippet")
+
+; Ruby development 
+(depends-on "robe")
+(depends-on "flymake-ruby")
+(depends-on "inf-ruby")
+(depends-on "ruby-refactor")
