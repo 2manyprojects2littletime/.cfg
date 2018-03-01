@@ -4,10 +4,13 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(require `cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
+(require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
 (cask-initialize)
 
-;TODO lang-specific config
+(require 'pallet)
+(pallet-mode t)
+
+;TODO config and init mode-specific plugins
 ;(add-to-list 'load-path "~/.emacs.d/custom")
 
 ;(load "ruby.el")
