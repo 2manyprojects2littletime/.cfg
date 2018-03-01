@@ -10,7 +10,6 @@
 (require 'pallet)
 (pallet-mode t)
 
-;TODO config and init mode-specific plugins
-;(add-to-list 'load-path "~/.emacs.d/custom")
+(add-to-list 'load-path "~/.emacs.d/custom")
 
-;(load "ruby.el")
+(load "ruby.el")
