@@ -25,6 +25,13 @@
 (require 'pallet)
 (pallet-mode t)
 
+;; I don't know where to put this yet, so I'm putting it here
+;; until such a point as that decision becomes painful or a
+;; better decision becomes more clear
+(global-set-key (kbd "C-x g") `magit-status)
+
 (add-to-list 'load-path "~/.emacs.d/custom")
 
 (load "ruby.el")
+
+
